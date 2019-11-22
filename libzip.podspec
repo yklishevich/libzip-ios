@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name             = 'libzip-ios'
+  spec.name             = 'libzip'
   spec.version          = '0.11'
   spec.license      	= { :type => "MIT", :file => "LICENSE.txt" }
   spec.homepage         = 'https://github.com/yklishevich/libzip-ios'
