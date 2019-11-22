@@ -6,5 +6,5 @@ Pod::Spec.new do |spec|
   spec.authors          = { 'Eugene Klishevich' => 'eklishevich@gmail.com' }
   spec.summary          = 'libzip static framework for ios'
   spec.source           = { :git => 'https://github.com/yklishevich/libzip-ios.git' }
-  spec.vendored_frameworks = 'libzip-ios.framework'
+  spec.vendored_frameworks = 'libzip.framework'
 end
