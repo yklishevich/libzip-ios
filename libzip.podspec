@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage         	= 'https://github.com/yklishevich/libzip-ios'
   spec.authors          	= { 'Eugene Klishevich' => 'eklishevich@gmail.com' }
   spec.summary          	= 'libzip static framework for ios'
-  s.platform     			= :ios, "8.0"
+  spec.platform     			= :ios, "8.0"
   spec.source           	= { :git => 'https://github.com/yklishevich/libzip-ios.git' }
   spec.vendored_frameworks 	= 'libzip.framework'
   spec.source_files 		= "libzip.framework/Headers/*.h"
