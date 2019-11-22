@@ -7,4 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary          = 'libzip static framework for ios'
   spec.source           = { :git => 'https://github.com/yklishevich/libzip-ios.git' }
   spec.vendored_frameworks = 'libzip.framework'
+  spec.public_header_files = "MyFramework.framework/Headers/*.h"
+  spec.source_files = "MyFramework.framework/Headers/*.h"
 end
