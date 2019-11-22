@@ -8,4 +8,7 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/yklishevich/libzip-ios.git' }
   spec.vendored_frameworks = 'libzip-ios.framework'
   spec.requires_arc     = false
+  spec.preserve_paths   = "libzip-ios.framework/*"
+  spec.source_files = 'libzip-ios.framework/Versions/A/Headers/*.h'
+  spec.public_header_files = 'libzip-ios.framework/Versions/A/Headers/*.h'
 end
