@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks 	= 'libzip.framework'
   spec.source_files 		= "libzip.framework/Versions/A/Headers/*.h"
   spec.public_header_files 	= "libzip.framework/Versions/A/Headers/*.h"
+  spec.libraries 			= 'z'
 end
